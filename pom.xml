@@ -120,7 +120,7 @@
 
   <build>
     <plugins>
-      <!-- Using tomcat for deployment -->
+      <!-- Using tomcat for deployment - TamanM -->
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
         <artifactId>tomcat7-maven-plugin</artifactId>
@@ -128,6 +128,7 @@
         <configuration>
             <url>http://localhost:8080/manager/text</url>
             <server>tomcat-dev-server</server>
+            <warFile>target\spring-petclinic-1.5.2-SNAPSHOT.war</warFile>
             <path>/petclinic</path>
         </configuration>
       </plugin>   
