@@ -126,7 +126,7 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-            <url>http://localhost:8080/manager/text</url>
+            <url>http://localhost:2020/manager/text</url>
             <server>tomcat-dev-server</server>
             <warFile>target\spring-petclinic-1.5.2-SNAPSHOT.war</warFile>
             <path>/petclinic</path>
